@@ -39,6 +39,10 @@ public class LoginPageTest extends TestBase {
 		loginpage.Credentilas(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
+	@Test(priority =3)
+	public void Demotest() {
+		System.out.println("login successfull");
+	}
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
