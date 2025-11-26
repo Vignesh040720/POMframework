@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Swag AutomationSuite">
+
+    <listeners>
+        <listener class-name="common.ExtentReport.ExtentReportListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="common.Qa.testcases.LoginPageTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.512 s <<< FAILURE! - in TestSuite
+common.Qa.testcases.LoginPageTest.LogoTest  Time elapsed: 0.05 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at common.Qa.testcases.LoginPageTest.LogoTest(LoginPageTest.java:34)
+
